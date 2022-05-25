@@ -7,7 +7,7 @@ exports.handler = async function(event, context) {
     try {
       const result = await getMetaData({
         url,
-        ua: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+        ua: 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)'
       });
       return {
         statusCode: 200,
